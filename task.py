@@ -29,3 +29,5 @@ ltrs = float(input("How many litres of bottle you want:  "))
 
 ob = bottles(type,ltrs)
 ob.get_bottle()
+
+print()
