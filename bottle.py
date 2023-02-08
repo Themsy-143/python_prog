@@ -15,6 +15,8 @@ for i in range(2):
     s = bottle(nme,bt_cp,clr)
     lst.append(s)
 
+
+
 for j in lst:
     print(j)
   

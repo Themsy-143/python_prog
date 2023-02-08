@@ -16,6 +16,8 @@ for n in range(3):
     name = input("Enter your name: ")
     s1 = int(input("enter dsp marks "))
     
+
+    
     st1 = student(name,s1)
     list_of_obj.append(st1)    
 
