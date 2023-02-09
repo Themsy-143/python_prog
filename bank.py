@@ -43,10 +43,12 @@ choice = input("What do you want to do? : credit/debit/check_balance : ")
 if (choice == "credit"):
     x = usr_choice()
     obj.credit(x)
+    obj.display()
 
 elif(choice == "debit"):
    y = usr_choice()
    obj.debit(y)
+   obj.display()
 
 elif(choice == "check_balance"):
    obj.display()
