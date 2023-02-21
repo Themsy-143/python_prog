@@ -1,0 +1,3 @@
+volume of cube is = 50.0cm³
+ volume of bottle is = 785.7142857142857cm³
+ empty space = 285.71428571428567cm³
