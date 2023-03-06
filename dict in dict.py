@@ -28,7 +28,7 @@ while True:
     elif (choice == 2):
         t = 'y'
         while t == 'y':
-            update_position=input("Enter position you want to change: ")
+            update_position=input("Enter name whose position you want to change: ")
             y= input("Enter new position: ")
             office_data[update_position]['position'] = y
             print(office_data)  
@@ -37,7 +37,7 @@ while True:
     elif (choice == 3):
         t = 'y'
         while t == 'y':
-            update_dob=input("Enter dob you want to change: ")
+            update_dob=input("Enter name whose dob you want to change: ")
             z=input("Enter new dob: ")
             office_data[update_dob]['dob']=z
             print(office_data)  

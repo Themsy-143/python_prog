@@ -1,7 +1,7 @@
 import math
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
-c = input("what do you want to do with this no.: add = a\n subtract = s\n multiply = m\n divide = d\n power = p\n square root = sr\n")
+c = input("what do you want to do with this no.:\n add = a\n subtract = s\n multiply = m\n divide = d\n power = p\n square root = sr\n")
 
 if c == "a":
     d = int(a) + int(b)
